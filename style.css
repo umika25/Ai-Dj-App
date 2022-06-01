@@ -1,0 +1,92 @@
+.note{
+    font-size:20px;
+    color:black;
+}
+.heading{
+    font-size:30px;
+    width:100%;
+    margin:0px;
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+    text-shadow: 2px 2px 4px #000000;
+}
+body{
+    background-size:cover;
+}
+.div_volume{
+    float:right;
+}
+.volume_img{
+    border-radius:100px;
+    width:200px;
+}
+#volume{
+    font-size:25px;
+    margin:15px;
+    background-color: #ff2e77;
+}
+.div_speed{
+    float:left;
+}
+.speed_img{
+    border-radius:100px;
+    width:200px;
+}
+#speed{
+    font-size:25px;
+    margin:15px;
+    background-color:#ff2e77;
+}
+.play_button{
+    font-size: 22px;
+    padding-left: 18px;
+    padding-right:18px;
+    transition-duration:0.5s;
+    background-color:white;
+    color:black;
+    border:3px solid #5af507;
+}
+.play_button:hover{
+background-color:#5af507;
+color:white;
+}
+canvas{
+    border:5px dotted white;
+    border-radius:150px 50px 100px 55px;
+}
+#song_options{
+    width:180px;
+    height:50px;
+    margin-left: 20px;
+    font-size:large;
+    border:3px solid #5af507;
+}
+#song_options:hover{
+    background-color:#5af507;
+    color:white;
+    }
+    .stop_button{
+        font-size: 22px;
+        padding-left: 18px;
+        padding-right:18px;
+        transition-duration:0.5s;
+        background-color:white;
+        color:black;
+        border:3px solid #5af507;
+    }
+    .stop_button:hover{
+    background-color:#5af507;
+    color:white;
+    }
+    .pause_button{
+        font-size: 22px;
+        padding-left: 18px;
+        padding-right:18px;
+        transition-duration:0.5s;
+        background-color:white;
+        color:black;
+        border:3px solid #5af507;
+    }
+    .pause_button:hover{
+    background-color:#5af507;
+    color:white;
+    }
